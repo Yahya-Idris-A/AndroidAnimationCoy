@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
     ObjectAnimator mAnimatorLeft;
     ObjectAnimator mAnimatorKeeperMove;
-    ObjectAnimator mAnimatorDown;
     ObjectAnimator mAnimatorXBack;
     ObjectAnimator mAnimatorStraight;
     ObjectAnimator mAnimatorYBack;
@@ -45,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
 
         mAnimatorStraight = ObjectAnimator.ofFloat(imgView,"y", 650);
         mAnimatorLeft = ObjectAnimator.ofFloat(imgView,"x", 130);
-        mAnimatorDown = ObjectAnimator.ofFloat(imgView, "y", 800);
         mAnimatorXBack = ObjectAnimator.ofFloat(imgView,"x", 380);
         mAnimatorYBack = ObjectAnimator.ofFloat(imgView,"y", 1430);
         mAnimatorRotate = ObjectAnimator.ofFloat(imgView,"rotation", 400);
